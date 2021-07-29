@@ -12,7 +12,7 @@ def main():
     '''Doodstream free video hosting cli'''
     if api == None or len(api) == 0:
         print("Please set doodstream api key in environment variable first")
-        print("$ export DOODSTREAM_API=your_key_here")
+        print("$ export DOODSTREAM_API=25742exvjwxzicvcc4jh5")
         sys.exit()
 
 @main.command()
